@@ -14,6 +14,7 @@ hbs.registerPartials(__dirname + '/views/partials', function(error) {});
 
 
 app.use(express.static('public'));
+
 // Rutas //funcion controlador
 app.get('/', (req, res) => {
   res.render('home',{
